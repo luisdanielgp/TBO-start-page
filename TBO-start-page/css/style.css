@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #F5F5DC;
+  background-size: 100%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+
+#javaScriptClock {
+  margin-top: 8%;
+  font-size: 8em;
+  color: #000;
+  font-weight: 550;
+}
+
+  #searchBar {
+    text-align: center;
+    margin: 1% 0 0 0;
+    width: 30%;
+    padding: .5% .4%;
+    font-size: 18px;
+    background-color: rgba(0,0,0,0.001);
+    border-radius: 4px;
+    color: #fff;
+    border: solid 1px #FFDAB9;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+#searchBar:focus {
+ background: 0;
+ border: solid 1px #fff;
+ font-family: 'Roboto Mono', monospace;
+ background-color: rgba(220,20,60,0.2);
+ outline: none;
+
+}
+
+/*Changing search bar placeholder's color in multiple browsers*/
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #FFDAB9;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #FFDAB9;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #FFDAB9;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #FFDAB9;
+}
+
+
+.container #links {
+  margin-top: 0;
+
+
+}
+
+.container #links li {
+  display: inline-block;
+  padding: 2% 4%;
+  text-align: left;
+}
+
+.container #links li a {
+  color: #000;
+}
+
+.container #links li a:hover {
+  text-decoration: none;
+
+}
+
+#links li {
+  text-decoration: none;
+  list-style-type: none;
+  transition: all .2s ease-in-out;
+  font-size: 1.1em;
+
+}
+
+#links li i:hover {
+  transform: scale(1.7);
+  color: #DC143C;
+}
+
+#badOctopus img{
+  margin-top: 16%;
+  transition: all .3s ease-in-out;
+}
+
+#badOctopus img:hover {
+  transform: scale(1.1);
+}
